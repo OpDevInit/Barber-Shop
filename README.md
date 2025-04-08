@@ -45,24 +45,15 @@ Sistema web desenvolvido para gerenciar os atendimentos de uma barbearia, inclui
 ```bash
 # Clone o repositório
 git clone https://github.com/OpDevInit/barber-system.git
-cd barber-system/backend
+cd .\barber-shop-ui\
 
 # Configure o application.properties com seus dados do MySQL
 
-# Execute a aplicação
-./mvnw spring-boot:run
-```
+# Execute a aplicação pela sua IDE ou via prompt
 
 A API será iniciada em: `http://localhost:8080`
 
 ### 💻 Front-end (Angular)
-
-```bash
-# Acesse a pasta do front-end
-cd ../frontend
-
-# Instale as dependências
-npm install
 
 # Execute o projeto Angular
 ng serve
@@ -74,14 +65,16 @@ A aplicação estará disponível em: `http://localhost:4200`
 
 ```text
 barber-system/
-├── backend/                # Projeto Spring Boot
-│   └── src/main/java/...  # Código Java
-├── frontend/               # Projeto Angular
-│   └── src/app/           # Componentes e serviços
+├── backend/                         # Projeto Spring Boot
+│   └── barber-shop-ui/src/main/...  # Código Java
+├── frontend/                        # Projeto Angular
+│   └── angular
+│   └── src/app/...                  # Componentes e serviços
 └── README.md
 ```
 
 ## 📸 Demonstração
+(https://github.com/user-attachments/assets/22f78538-3aa2-4075-9807-e1f44fc3d51a)
 
 > *(Adicione aqui prints ou GIFs demonstrando o uso do sistema, como a tela de agendamento ou listagem de clientes)*
 
