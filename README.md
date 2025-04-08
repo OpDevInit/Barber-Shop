@@ -74,7 +74,8 @@ barber-system/
 ```
 
 ## 📸 Demonstração
-(https://github.com/user-attachments/assets/22f78538-3aa2-4075-9807-e1f44fc3d51a)
+![Captura de tela 2025-04-07 232620](https://github.com/user-attachments/assets/f6a12595-9a64-4c08-8fce-b55b43f36c65)
+
 
 > *(Adicione aqui prints ou GIFs demonstrando o uso do sistema, como a tela de agendamento ou listagem de clientes)*
 
