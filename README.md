@@ -1,59 +1,97 @@
-# BarberShopUi
+# 💈 BarberSystem - Gerenciamento de Barbearia
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.1.5.
+Sistema web desenvolvido para gerenciar os atendimentos de uma barbearia, incluindo cadastro de clientes, controle de agendamentos e visualização mensal dos horários disponíveis.
 
-## Development server
+## 🚀 Tecnologias Utilizadas
 
-To start a local development server, run:
+**Front-end:**
+- Angular
+- Angular Material
+- TypeScript
+- HTML/CSS
+
+**Back-end:**
+- Java 21
+- Spring Boot
+- Spring Data JPA
+- MySQL (ou outro banco)
+- Maven
+
+**Outros:**
+- Node.js (última versão)
+- Angular CLI
+- Postman (para testes de API)
+
+## 🎯 Funcionalidades
+
+- ✅ Cadastro, edição e exclusão de clientes
+- ✅ Agendamento de horários com validação de conflito
+- ✅ Visualização de agendamentos mensais
+- ✅ Interface responsiva com Angular Material
+- ✅ Comunicação via API REST entre Angular e Spring Boot
+
+## 🛠️ Como executar o projeto
+
+### 🔧 Pré-requisitos
+
+- Java 21 instalado
+- Node.js (última versão)
+- Angular CLI
+- MySQL
+- Maven
+
+### ⚙️ Back-end (Spring Boot)
 
 ```bash
+# Clone o repositório
+git clone https://github.com/OpDevInit/barber-system.git
+cd barber-system/backend
+
+# Configure o application.properties com seus dados do MySQL
+
+# Execute a aplicação
+./mvnw spring-boot:run
+```
+
+A API será iniciada em: `http://localhost:8080`
+
+### 💻 Front-end (Angular)
+
+```bash
+# Acesse a pasta do front-end
+cd ../frontend
+
+# Instale as dependências
+npm install
+
+# Execute o projeto Angular
 ng serve
 ```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+A aplicação estará disponível em: `http://localhost:4200`
 
-## Code scaffolding
+## 📁 Estrutura do Projeto
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
+```text
+barber-system/
+├── backend/                # Projeto Spring Boot
+│   └── src/main/java/...  # Código Java
+├── frontend/               # Projeto Angular
+│   └── src/app/           # Componentes e serviços
+└── README.md
 ```
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+## 📸 Demonstração
 
-```bash
-ng generate --help
-```
+> *(Adicione aqui prints ou GIFs demonstrando o uso do sistema, como a tela de agendamento ou listagem de clientes)*
 
-## Building
+## 📄 Licença
 
-To build the project run:
+Este projeto está licenciado sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais informações.
 
-```bash
-ng build
-```
+## 👨‍💻 Autor
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+Desenvolvido por **Jhonata Ferreira de Oliveira**  
+📧 jholzinhooh567@gmail.com  
+🔗 [LinkedIn](https://www.linkedin.com/in/jhonata-ferreira-857ab7191)  
+🐙 [GitHub](https://github.com/OpDevInit)
